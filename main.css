@@ -1,0 +1,244 @@
+.bg{
+  background-color: #f4f7fd;
+}
+
+.loader {
+    width: 215px;
+    height: 220px;
+    background:
+        linear-gradient(0.25turn, transparent, #FFF, transparent),
+        linear-gradient(#DDD, #DDD),
+        linear-gradient(#DDD, #DDD),
+        linear-gradient(#DDD, #DDD);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 215px 220px, 215px 130px, 100px 15px, 150px 15px;
+    background-position: -215px 0, 0 0, 15px 150px, 15px 180px;
+    animation: loading 1.5s infinite;
+    margin-bottom: 20px;
+}
+
+@keyframes loading {
+  to {
+    background-position: 215px 0, 0 0, 15px 150px, 15px 180px;
+  }
+}
+
+header{
+  background-color: #a2adc2;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  -webkit-box-shadow: 4px 15px 8px 0px rgba(34, 60, 80, 0.2);
+-moz-box-shadow: 4px 15px 8px 0px rgba(34, 60, 80, 0.2);
+box-shadow: 4px 15px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.head-wraper{
+  display: flex;
+flex-shrink: inherit;
+align-items: center;
+gap: 30px;
+padding: 20px;
+}
+
+.form-one{
+  margin-top: 15px;
+}
+
+.payment{
+  margin:0 auto;
+  text-align: center;
+}
+
+.payment p{
+  text-align: center;
+}
+
+.icon-container{
+  display: flex;
+  align-items: center;
+  
+}
+
+.icon-container p{
+align-items: center;
+margin-top: 15px;
+font-family: sans-serif;
+}
+
+
+
+/* ///////payment */
+.payment{
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.form-controll {
+  margin: 0 auto; 
+  background-color: rgb(186, 205, 225);
+  border-radius: 20px;
+  width: 400px;
+}
+
+.form-wraper{
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn-submit{
+  margin-top: 15px;
+  margin-left: 280px;
+}
+
+.close{
+  margin-left: 300px;
+  margin-top: 10px;
+}
+
+
+/* //////////////////////         card     elemnt */
+.cards-wrpper{
+  margin-top: 120px;
+}
+.card-content-wrapper{
+  border: 2px solid snow;
+  border-radius: 20px;
+  width: 350px;
+  height: 600px;
+  background-color: white;
+  position: relative;
+}
+
+.img-wrapper{
+  padding-left: 70px;
+  padding-top: 15px;
+}
+
+.rating{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+
+.rating p{
+  margin-top: 15px;
+}
+
+.text-wrapper{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.text-wrapper h3{
+  color: rgb(69, 79, 91);
+  font-family: SF Pro Text;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 518px;
+}
+
+.p-text{
+  color: rgb(31, 32, 32);
+  font-family: SF Pro Text;
+  font-size: 16px;  
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  max-width: 518px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+
+
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 15px;
+}
+
+.card_badge{
+position: absolute;
+top: 0;
+right: 0;
+width: 40px;
+height: 40px;
+background-color:rgb(31, 79, 238);
+border-radius: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+transform: translate(20px,-20px) scale(1);
+transform: all 0.3 ease;
+color: #fff;
+opacity: 0.8;
+font-size: 20px;
+font-weight: bold;
+animation: scaleanimation 1s ease infinite;
+display: none;
+}
+
+.categoriya{
+  color: #a2adc2;
+}
+
+.narx{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 15px;
+}
+
+.narx p{
+  margin-top: 15px;
+}
+
+.cards-wrpper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.savatchagaSave{
+  display: none;
+  border-radius: 20px;
+  width: 400px;
+  background-color: #a2adc2;
+  margin-top: 40px;
+  padding: 30px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.count-savatcha span{
+  color: #DDD;
+}
+
+.count-savatchaa{
+  display: flex;
+  justify-content: center;
+}
+
+
+
